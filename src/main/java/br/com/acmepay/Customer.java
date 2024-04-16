@@ -4,11 +4,11 @@ import java.util.List;
 
 public class Customer {
 
-    public String customerDocument;
-    public List<Account> customerAccounts;
-    public String customerName;
-    public String customerEmail;
-    public String customerPhone;
+    private String customerDocument;
+    private List<Account> customerAccounts;
+    private String customerName;
+    private String customerEmail;
+    private String customerPhone;
 
     public String getCustomerDocument() {
         return customerDocument;

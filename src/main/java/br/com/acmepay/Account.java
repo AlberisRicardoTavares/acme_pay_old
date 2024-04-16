@@ -4,9 +4,9 @@ import java.math.BigDecimal;
 
 public class Account {
 
-    public int accountNumber;
-    public int agencyNumber;
-    public BigDecimal balance;
+    private int accountNumber;
+    private int agencyNumber;
+    private BigDecimal balance;
 
     public int getAccountNumber() {
         return accountNumber;

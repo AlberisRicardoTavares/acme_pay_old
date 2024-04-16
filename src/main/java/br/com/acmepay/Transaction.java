@@ -6,12 +6,12 @@ import java.util.UUID;
 
 public class Transaction {
 
-    public UUID transactionId;
-    public BigDecimal transactionValue;
-    public int destinationAccount;
-    public int originAccount;
-    public LocalDate transactionDate;
-    public int accountId;
+    private UUID transactionId;
+    private BigDecimal transactionValue;
+    private int destinationAccount;
+    private int originAccount;
+    private LocalDate transactionDate;
+    private int accountId;
 
     public UUID getTransactionId() {
         return transactionId;
